@@ -1,0 +1,6 @@
+@Lms.ApiGateway_HostAddress = http://localhost:5001
+
+GET {{Lms.ApiGateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
