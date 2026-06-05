@@ -10,6 +10,14 @@ Clients only ever talk to the gateway; the gateway talks to the services.
 
 ---
 
+## Live deployment
+
+The service is deployed to **API Gateway**:
+
+- Health check → `https://lms-api-gateway-gge8ghc9fgdmdkcp.polandcentral-01.azurewebsites.net/health`
+
+---
+
 ## Tech stack
 
 - **.NET 10** / ASP.NET Core (minimal hosting)
